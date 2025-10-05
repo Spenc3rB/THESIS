@@ -16,6 +16,33 @@ This is a living document for my thesis deadlines and schedule. Current details 
 ## 10/04/2025:
 - There are 3 types of RE: Protocol Reverse Engineering (PRE), Hardware Reverse Engineering (HRE), Software Reverse Engineering (SRE).
 - There are 3 types of RE approaches: Black Box, Gray Box, White Box.
+
+| Principle                                  | How I Apply It                                                         |
+| ------------------------------------------ | ------------------------------------------------------------------------ |
+| **Use only standard SysML**                | BDD, IBD, Activity, Requirement, Sequence Diagrams.                      |
+| **Use minimal relationships**              | `trace`, `refine`, `deriveReqt`, `verify`.                               |
+| **Capture evidence simply**                | Comments with file names or addresses.                                   |
+| **Show bidirectional linkage**             | Each observation traces *up* to a requirement and *down* to an artifact. |
+
+### Proposed Thesis Structure:
+1. Abstract
+2. Acknowledgements
+3. List of Tables
+4. List of Figures
+5. Introduction
+   - Problem Statement: The increasing complexity of cyber-physical systems necessitates effective reverse engineering techniques to ensure their security and reliability.
+   - Research Questions: How can reverse-engineering efforts integrate with SysML to surface unspecified/undesired behavior?
+   - Contributions: TODO
+6. Case Studies
+   - Case Study 1: *White-box* PRE J1708 Protocol and Implementation
+   - Case Study 2: *White-box* PRE/SRE/HRE Development of Truck Hacking Platform
+   - Case Study 3: *White-box* SRE/PRE Development of CyberEvent IS
+   - Case Study 4: *Gray-box* PRE/SRE OneNet Protocol and Implementation
+   - Case Study 5: *Gray-box* YDWG-02 MIoT Security Assessment
+   - Case Study 6: *Gray-box* ELD Security Assessment
+   - Case Study 7: *Black-box* Patching ECM
+7. Conclusion
+8. Bibliography
   
 # Projects to consider incorporating:
 - SECURING LEGACY TRANSPORT PROTOCOLS: REQUIREMENTS-DRIVEN MITIGATION FOR COMMUNICATION SYSTEMS (i.e., J1708 protocol vulnerabilities and mitigations):
