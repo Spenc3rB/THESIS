@@ -5,6 +5,7 @@ This is a living document for my thesis deadlines and schedule. Current details 
 | Date       | Task                                      | Status   |
 |------------|-------------------------------------------|----------|
 | 10/06/2025 | Finalize thesis abstract                  | Pending  |
+| 10/28/2025 | Rough draft of thesis                     | Pending  |
 
 # Notes:
 
@@ -33,7 +34,8 @@ This is a living document for my thesis deadlines and schedule. Current details 
    - Problem Statement: The increasing complexity of cyber-physical systems necessitates effective reverse engineering techniques to ensure their security and reliability.
    - Research Questions: How can reverse-engineering efforts integrate with SysML to surface unspecified/undesired behavior?
    - Contributions: TODO
-6. Case Studies
+6. Background
+7. Case Studies
    - Case Study 1: *White-box* PRE J1708 Protocol and Implementation
    - Case Study 2: *White-box* PRE/SRE/HRE Development of Truck Hacking Platform
    - Case Study 3: *White-box* SRE/PRE Development of CyberEvent IS
@@ -41,8 +43,8 @@ This is a living document for my thesis deadlines and schedule. Current details 
    - Case Study 5: *Gray-box* YDWG-02 MIoT Security Assessment
    - Case Study 6: *Gray-box* ELD Security Assessment
    - Case Study 7: *Black-box* Patching ECM
-7. Conclusion
-8. Bibliography
+8. Conclusion
+9. Bibliography
   
 # Projects to consider incorporating:
 - SECURING LEGACY TRANSPORT PROTOCOLS: REQUIREMENTS-DRIVEN MITIGATION FOR COMMUNICATION SYSTEMS (i.e., J1708 protocol vulnerabilities and mitigations):
