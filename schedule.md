@@ -4,8 +4,9 @@ This is a living document for my thesis deadlines and schedule. Current details 
 
 | Date       | Task                                      | Status   |
 |------------|-------------------------------------------|----------|
-| 10/06/2025 | Finalize thesis abstract                  | Pending  |
-| 10/28/2025 | Rough draft of thesis                     | Pending  |
+| 10/06/2025 | Finalize thesis abstract                  | Done |
+| 10/28/2025 | Rough draft of thesis                     | I wish |
+| 11/17/2025 | Complete thesis draft and Schedule Committee Defense            | In Progress |
 
 # Notes:
 
@@ -14,7 +15,7 @@ This is a living document for my thesis deadlines and schedule. Current details 
 - Consider case studies for practical application (make sure they aren't too complex).
 - Current thesis topic: "Bottoms-up: A SysML Approach to Reverse Engineering Cyber-Physical Systems".
 
-## 10/04/2025:
+<!-- ## 10/04/2025:
 - There are 3 types of RE: Protocol Reverse Engineering (PRE), Hardware Reverse Engineering (HRE), Software Reverse Engineering (SRE).
 - There are 3 types of RE approaches: Black Box, Gray Box, White Box.
 
@@ -62,4 +63,4 @@ This is a living document for my thesis deadlines and schedule. Current details 
 - yachtDestroy: A vulnerability exposure tool for recreational marine vessels (i.e., reverse engineering and modeling the System of Interest (SoI) connected to a TCP/IP to NMEA 2000 gateway)
   - Gray Box SRE/PRE/HRE <-> SysML
 - FMSCA ELD Mandate (i.e., reverse engineering and modeling the SoI, an ELD device, to understand vulnerabilities and potential mitigations)
-  - Gray Box SRE/PRE/HRE <-> SysML
+  - Gray Box SRE/PRE/HRE <-> SysML -->
