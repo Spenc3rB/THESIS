@@ -43,4 +43,4 @@ For example:
 
 # Applied Case Studies
 
-coming soon...
+1. [Marine Gateway Devices](./Marine%20Gateways/)

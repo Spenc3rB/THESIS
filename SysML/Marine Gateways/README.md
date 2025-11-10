@@ -1,0 +1,1 @@
+This directory contains an example of the CVMS profile and reverse engineering marine gateway devices using SysML.
