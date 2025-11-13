@@ -10,7 +10,6 @@ Usage:
 import json
 import pandas as pd
 import sys
-
 def iter_json_objects(s):
     """Yield each JSON object from a possibly concatenated stream."""
     decoder = json.JSONDecoder()

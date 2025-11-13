@@ -3,7 +3,9 @@ Thesis work done for my Systems Engineering Masters Degree at CSU. This is a WIP
 
 ## About
 
-This repository contains code and documentation related to my thesis work in Systems Engineering at Colorado State University. The focus of the thesis is on using SysML as a reconstruction framework for cyber-physical systems. 
+This repository contains code and documentation related to my thesis work in Systems Engineering at Colorado State University. The focus of the thesis is on using SysML as a reconstruction framework for cyber-physical systems, especially in the context of cybersecurity vulnerability management.
+
+> See [CWE](https://cwe.mitre.org/), [CAPEC](https://capec.mitre.org/), and [CVE](https://cve.mitre.org/).
 
 ## Contributions
 

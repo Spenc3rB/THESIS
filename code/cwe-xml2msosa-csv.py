@@ -30,8 +30,8 @@ def fetch_cwe_api():
         print(f"[WARN] Could not fetch CWE API: {e}")
         return "", "", "", "", ""
 
-def main(file, version):
-    tree = ET.parse(file)
+def main(ifile, ofile, version):
+    tree = ET.parse(ifile)
     root = tree.getroot()
 
     if root.tag.startswith("{"):
@@ -54,7 +54,7 @@ def main(file, version):
     weaknesses = root.findall(weakness_path, ns)
     print(f"[INFO] Found {len(weaknesses)} CWE weaknesses in XML")
 
-    with open("output.csv", "w", newline="", encoding="utf-8") as csvfile:
+    with open(ofile, "w", newline="", encoding="utf-8") as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["CWE_ID", "Name", "Description", "URL"])
 
@@ -73,7 +73,7 @@ def main(file, version):
 
             writer.writerow([cwe_id, name, description, f"https://cwe.mitre.org/data/definitions/{cwe_id}.html"])
 
-    print("Filtered CSV written to output.csv")
+    print(f"CWE CSV written to {ofile}")
 
 if __name__ == "__main__":
     version, release_date, total_weaknesses, total_categories, total_views = fetch_cwe_api()
@@ -83,7 +83,8 @@ if __name__ == "__main__":
     print(f"Total Weaknesses: {total_weaknesses}")
     print(f"Total Categories: {total_categories}")
     print(f"Total Views: {total_views}")
-    parser = argparse.ArgumentParser(description="Parse CWE XML and output to CSV.")
-    parser.add_argument("-f", "--file", required=True, help="Path to the CWE XML file")
+    parser = argparse.ArgumentParser(description="Parse CWE XML and output to CSV. It's recommended to download the latest CWE XML from https://cwe.mitre.org/.")
+    parser.add_argument("-xml", type=str, required=True, help="Path to CWE XML file")
+    parser.add_argument("-csv", type=str, default="output.csv", help="Path to output CSV file")
     args = parser.parse_args()
-    main(args.file, version)
+    main(args.xml, args.csv, version)
