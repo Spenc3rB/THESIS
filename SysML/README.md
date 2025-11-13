@@ -8,10 +8,10 @@ This directory contains the SysML profile for Cybersecurity Vulnerability Manage
 3. Select the [CVMS.mdzip](./CVMS.mdzip) file in this directory
 4. Save the project, close it, and reopen it to ensure the profile is loaded correctly.
 5. You can now apply the stereotypes as needed within requirement diagrams / tables, and use the traceability relationships to document connections between vulnerabilities and system components or behaviors:
-   1. `<<Threaten>>` should be read as "this [weakness, vulnerability, or attack pattern] threatens this system element"
-   2. `<<Mitigate>>` should be read as "this system element mitigates this [weakness, vulnerability, or attack pattern]"
-   3. `<<PossibleThreat>>` should be read as "this [weakness, vulnerability, or attack pattern] could possibly threaten this system element"
-   4. `<<PossibleMitigation>>` should be read as "this system element could possibly mitigate this [weakness, vulnerability, or attack pattern]"
+   1. `<<Threaten>>` should be read as "this [weakness, vulnerability, or attack pattern] threatens this system element". This should only be used when verifiable relationships exist (real threat).
+   2. `<<Mitigate>>` should be read as "this system element mitigates this [weakness, vulnerability, or attack pattern]". This should only be used when verifiable relationships exist (real mitigation).
+   3. `<<PossibleThreat>>` should be read as "this [weakness, vulnerability, or attack pattern] could possibly threaten this system element". This should only be used when satisfiable relationships exist (potential threat).
+   4. `<<PossibleMitigation>>` should be read as "this system element could possibly mitigate this [weakness, vulnerability, or attack pattern]". This should only be used when satisfiable relationships exist (potential mitigation).
    5. `<<Weakness>>`, `<<Vulnerability>>`, and `<<AttackPattern>>` should be applied as library elements representing known weaknesses, vulnerabilities, and attack patterns, respectively. They can, and should, be traced to system elements using the above relationships:
       1. A `<<Weakness>>` or `<<CWE>>` should be mapped to SysML requirements (the root cause).
       2. A `<<Vulnerability>>` or `<<CVE>>` should be mapped to SysML structural components (the manifestation of the weakness in a specific system).
