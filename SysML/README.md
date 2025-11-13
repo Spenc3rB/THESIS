@@ -2,6 +2,10 @@
 
 ![CVMS Profile Diagram](../media/catia-magic/CVMS.jpg)
 
+![CAPEC Mappings](../media/CAPEC_mappings.png)
+
+> Credit: https://www.fncyber.com/web-of-trust-article/understand-common-attack-patterns/
+
 This directory contains the SysML profile for Cybersecurity Vulnerability Management Systems (CVMS). This simple profile includes custom stereotypes and traceability relationships for documenting weakness, vulnerability, and attack pattern data within SysML models. To use the profile:
 1. Open Magic Systems of Systems Architect
 2. Go to `Import From` > `Another Project...`
